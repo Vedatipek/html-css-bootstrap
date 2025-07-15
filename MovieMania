@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MovieMania</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">MovieMania</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#showtimes">Showtimes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#deals">Deals</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to MovieMania!</h1>
+    <p class="lead">Catch the latest blockbusters and best deals in town.</p>
+  </div>
+
+  <!-- Info Sections in 3 Columns -->
+  <div class="container mt-5 mb-5" id="info-sections">
+    <div class="row text-center">
+      
+      <!-- About -->
+      <div class="col-md-4" id="about">
+        <h3>About</h3>
+        <p>MovieMania is your one-stop destination for the latest blockbusters and unbeatable deals.</p>
+      </div>
+
+      <!-- Showtimes (Short) -->
+      <div class="col-md-4" id="showtimes-short">
+        <h3>Showtimes</h3>
+        <p>Browse today’s showtimes for all the hottest releases — action, drama, fantasy, and more.</p>
+      </div>
+
+      <!-- Deals -->
+      <div class="col-md-4" id="deals">
+        <h3>Deals</h3>
+        <p>Check out our special offers and discounts on movie tickets and snack combos.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Movie Cards Section -->
+  <div class="container mt-5" id="showtimes">
+    <h2 class="text-center mb-4">Now Showing</h2>
+    <div class="card-deck">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <img
+          src="images/kong.jpg"
+          class="card-img-top"
+          alt="Kong Skull Island"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Kong: Skull Island</h5>
+          <p class="card-text">
+            Scientists embark on a mission to explore a mysterious island ruled
+            by the giant ape, Kong.
+          </p>
+          <!-- Info Pill Badges -->
+          <span class="badge badge-info badge-pill mr-1">12:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">1:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">3:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">5:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">7:00 p.m.</span>
+          <span class="badge badge-info badge-pill">9:30 p.m.</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img
+          src="images/ghost.jpg"
+          class="card-img-top"
+          alt="Ghost in the Shell"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Ghost in the Shell</h5>
+          <p class="card-text">
+            A cyber-enhanced soldier fights to uncover the truth about her past
+            in a futuristic world.
+          </p>
+          <!-- Info Pill Badges -->
+          <span class="badge badge-info badge-pill mr-1">12:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">1:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">3:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">5:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">7:00 p.m.</span>
+          <span class="badge badge-info badge-pill">9:30 p.m.</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img
+          src="images/beauty.jpg"
+          class="card-img-top"
+          alt="Beauty and the Beast"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Beauty and the Beast</h5>
+          <p class="card-text">
+            A young woman discovers love and courage while imprisoned by a beast
+            in his enchanted castle.
+          </p>
+          <!-- Info Pill Badges -->
+          <span class="badge badge-info badge-pill mr-1">12:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">1:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">3:00 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">5:30 p.m.</span>
+          <span class="badge badge-info badge-pill mr-1">7:00 p.m.</span>
+          <span class="badge badge-info badge-pill">9:30 p.m.</span>
